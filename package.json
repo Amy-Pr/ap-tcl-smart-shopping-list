@@ -1,7 +1,6 @@
 {
 	"name": "smart-shopping-list-next",
 	"private": false,
-	"homepage": "https://amy-pr.github.io/ap-tcl-smart-shopping-list",
 	"engines": {
 		"node": ">=18.12.0",
 		"npm": ">=8.19.0"
@@ -28,7 +27,6 @@
 		"eslint-config-prettier": "^8.7.0",
 		"eslint-config-react-app": "^7.0.1",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
-		"gh-pages": "^5.0.0",
 		"husky": "^8.0.3",
 		"jsdom": "^21.1.1",
 		"lint-staged": "^13.2.0",
@@ -40,8 +38,6 @@
 	},
 	"scripts": {
 		"start": "vite",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
 		"build": "vite build",
 		"test": "vitest",
 		"preview": "vite preview",
